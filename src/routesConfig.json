@@ -2,7 +2,7 @@
     "routes": [
       {
         "route": "/",
-        "address": "http://localhost:3000"
+        "address": "https://domenichini.ca:8000"
       }
     ]
   }
