@@ -3,7 +3,12 @@ const proxy = require('http-proxy-middleware');
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
-const { routes } = require('./routesConfig.json');
+let routes;
+if (process.env.NODE_ENV == 'production') {
+  routes = require('./routesConfigProduction.json').routes;
+} else {
+  routes = require('./routesConfigDevelopment.json').routes;
+}
 
 const app = express();
 
