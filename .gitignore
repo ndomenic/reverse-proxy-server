@@ -1,5 +1,5 @@
 # Certificates
-.well-known/acme-challenge/*
+acme-challenge/*
 
 # Logs
 logs
