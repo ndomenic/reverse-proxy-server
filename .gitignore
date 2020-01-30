@@ -1,6 +1,5 @@
 # Certificates
-*.cert
-*.key
+src/.well-known/acme-challenge/*
 
 # Logs
 logs
