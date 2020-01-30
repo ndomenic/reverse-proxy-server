@@ -2,7 +2,7 @@
     "routes": [
       {
         "route": "/",
-        "address": "https://domenichini.ca:8000"
+        "address": "https://www.domenichini.ca:8000"
       }
     ]
   }
