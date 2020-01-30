@@ -31,6 +31,7 @@ if (process.env.NODE_ENV == 'production') {
   }, app).listen(443, () => console.log(`Listening on port 443`));
 }
 
+//Default http server
 http.createServer(app).listen(80, () => {
   console.log('HTTP Server running on port 80');
 });
